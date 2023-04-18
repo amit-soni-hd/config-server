@@ -1,0 +1,20 @@
+
+[	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(×ù’
+`	java:S112("FDefine and throw a dedicated exception instead of using a generic one.(¼µ½ùÿÿÿÿ
+Q	java:S125"<This block of commented-out lines of code should be removed.(Ğ½áª
+O
+java:S4719"9Replace charset name argument with StandardCharsets.UTF_8(»à˜¡
+T
+java:S47192"9Replace charset name argument with StandardCharsets.UTF_8(ï¸üúÿÿÿÿÿ
+X	java:S125P"<This block of commented-out lines of code should be removed.(£Ó÷›8¨¿³–ò0
+]	java:S125R"<This block of commented-out lines of code should be removed.(Œ±¦—ùÿÿÿÿ8à³–ò0
+Y
+java:S1659Y">Declare "e" and all following declarations on a separate line.(ãƒ†¯ÿÿÿÿÿ
+N	java:S106Z"9Replace this use of System.out or System.err by a logger.(ïÑ¿ª
+S	java:S106["9Replace this use of System.out or System.err by a logger.(³ğ¸ûÿÿÿÿ
+M	java:S106\"9Replace this use of System.out or System.err by a logger.(óï
+N	java:S106i"9Replace this use of System.out or System.err by a logger.(ïÑ¿ª
+V	java:S125k"<This block of commented-out lines of code should be removed.(€“ªµıÿÿÿÿ
+Z	java:S106"9Replace this use of System.out or System.err by a logger.(ã¿¢Ôùÿÿÿÿ8¼Åï•ò0
+M
+java:S1144T"0Remove this unused private "minimumSwap" method.(¨Øï8¬¿³–ò0

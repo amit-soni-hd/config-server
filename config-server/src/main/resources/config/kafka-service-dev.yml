@@ -1,0 +1,22 @@
+server:
+  port: 8090
+  tomcat:
+    threads:
+      max: 1000
+spring:
+  # mongo datasource
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/development
+      username: radhakrishna
+      password: radha@krishna
+
+
+  #Postgresql datasource
+  datasource:
+    url: jdbc:postgresql://localhost:5432/development
+    username: radhakrishna
+    password: radha@krishna
+    driverClassName: org.postgresql.Driver
+
+key: ENC(WmroUEWq8AYVdSv2c7Na+39U2prbU1F4irOanM5GIikiPYCNZmp4sQzO1FYtrscc)

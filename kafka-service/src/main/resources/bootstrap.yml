@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: kafka-service
+  cloud:
+    config:
+      profile: aws
+      enabled: true
+      uri: http://localhost:8082/ # config server uri
+  profiles:
+    active: dev
+  main:
+    banner-mode: off

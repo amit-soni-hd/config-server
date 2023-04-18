@@ -1,0 +1,56 @@
+
+l	java:S127C"XRefactor the code in order to not assign to this loop counter from within the loop body.(¨…ÄK
+f
+java:S1149?"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(²Áßş
+k
+java:S1149L"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(ÔğÖéıÿÿÿÿ
+A
+java:S1452"&Remove usage of generic wildcard type.(å±è˜ùÿÿÿÿ
+V	java:S125#"<This block of commented-out lines of code should be removed.(»•ûÿÿÿÿ
+S	java:S1064"9Replace this use of System.out or System.err by a logger.(­ËÖşÿÿÿÿ
+N	java:S106;"9Replace this use of System.out or System.err by a logger.(îòŠ†
+N	java:S106I"9Replace this use of System.out or System.err by a logger.(¢àóÄ
+S	java:S106k"9Replace this use of System.out or System.err by a logger.(š—“¿ÿÿÿÿÿ
+S	java:S106l"9Replace this use of System.out or System.err by a logger.(É™Êùÿÿÿÿ
+S	java:S106q"9Replace this use of System.out or System.err by a logger.(´‹¹öşÿÿÿÿ
+S	java:S106x"9Replace this use of System.out or System.err by a logger.(š©£üÿÿÿÿ
+S	java:S106y"9Replace this use of System.out or System.err by a logger.(ÍÅÏıÿÿÿÿ
+N	java:S106{"9Replace this use of System.out or System.err by a logger.(ôëğ…
+L
+java:S1854„"5Remove this useless assignment to local variable "v".(íòå™
+P
+java:S1854ƒ"9Remove this useless assignment to local variable "visit".(íĞïŸ
+I
+java:S1172"2Remove these unused method parameters "list", "n".(Ú‚èä
+A
+java:S1481ƒ"*Remove this unused "visit" local variable.(íĞïŸ
+=
+java:S1481„"&Remove this unused "v" local variable.(íòå™
+W	java:S125‡"<This block of commented-out lines of code should be removed.(ŒáıÔÿÿÿÿÿ
+R	java:S125"<This block of commented-out lines of code should be removed.(ˆÇÕí
+˜
+java:S1130™"|Remove the declaration of thrown exception 'javax.crypto.NoSuchPaddingException', as it cannot be thrown from method's body.(©èËèüÿÿÿÿ
+›
+java:S1130™"Remove the declaration of thrown exception 'java.security.NoSuchAlgorithmException', as it cannot be thrown from method's body.(©èËèüÿÿÿÿ
+–
+java:S1130™"zRemove the declaration of thrown exception 'java.security.InvalidKeyException', as it cannot be thrown from method's body.(©èËèüÿÿÿÿ
+›
+java:S1130™"Remove the declaration of thrown exception 'javax.crypto.IllegalBlockSizeException', as it cannot be thrown from method's body.(©èËèüÿÿÿÿ
+•
+java:S1130™"yRemove the declaration of thrown exception 'javax.crypto.BadPaddingException', as it cannot be thrown from method's body.(©èËèüÿÿÿÿ
+T	java:S106›"9Replace this use of System.out or System.err by a logger.(½‚ı×üÿÿÿÿ
+>
+java:S3329¡"'Use a dynamically-generated, random IV.(Ã³½†
+O	java:S106§"9Replace this use of System.out or System.err by a logger.(üÙ¹›
+T	java:S106ª"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ
+T	java:S106º"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ
+?
+java:S1144+")Remove this unused private "test" method.(‚Ê¸¢
+?
+java:S1144>")Remove this unused private "find" method.(’ÎÃË
+B
+java:S1144a",Remove this unused private "testing" method.(Ş­•ÿ
+F
+java:S1144o"+Remove this unused private "strStr" method.(éÃ¥áşÿÿÿÿ
+D
+java:S1144"-Remove this unused private "markZero" method.(Ú‚èä
