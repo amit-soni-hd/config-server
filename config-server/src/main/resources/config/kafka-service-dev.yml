@@ -4,19 +4,32 @@ server:
     threads:
       max: 1000
 spring:
-  # mongo datasource
+#   mongo datasource
   data:
     mongodb:
       uri: mongodb://localhost:27017/development
       username: radhakrishna
       password: radha@krishna
-
-
   #Postgresql datasource
   datasource:
-    url: jdbc:postgresql://localhost:5432/development
+    url: jdbc:mysql://localhost:3306/development
     username: radhakrishna
     password: radha@krishna
-    driverClassName: org.postgresql.Driver
+    driverClassName: com.mysql.cj.jdbc.Driver
+    hikari:
+      maximum-pool-size: 10     # Maximum number of database connections in the pool
+      idle-timeout: 30000       # Maximum time in milliseconds that a connection is allowed to sit idle
+  jpa:
+    show-sql: true   # Enable SQL logging
+    database: mysql  # Database platform
+    database-platform: org.hibernate.dialect.MySQL8Dialect   # Database dialect
+    hibernate:
+      ddl-auto: update      # Database schema generation strategy
+    properties:
+      hibernate:
+        format_sql: true  # Format SQL statements for readability
+        jdbc:
+          lob:
+            non_contextual_creation: true  # Enable handling of LOB fields
 
 key: ENC(WmroUEWq8AYVdSv2c7Na+39U2prbU1F4irOanM5GIikiPYCNZmp4sQzO1FYtrscc)
