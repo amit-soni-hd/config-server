@@ -7,6 +7,8 @@ import lombok.NoArgsConstructor;
 import lombok.ToString;
 import lombok.experimental.Accessors;
 
+import javax.validation.constraints.Max;
+import javax.validation.constraints.Min;
 import java.time.LocalDateTime;
 import java.util.Set;
 
@@ -24,6 +26,8 @@ public class OrderDetails {
     private Integer id;
 
     @Column(name = "status")
+    @Min(value = 0, message = "Please provide valid status (0-3)")
+    @Max(value = 3, message = "Please provide valid status (0-3)")
     private Integer status;
 
     @Column(name = "order_date")
@@ -32,7 +36,7 @@ public class OrderDetails {
     @Column(name = "delivery_date")
     private LocalDateTime deliveryDate;
 
-    @ManyToMany
+    @ManyToMany(cascade = CascadeType.ALL)
     @JoinTable(
             name = "order_product_relationship",
             joinColumns = {@JoinColumn(name = "order_id")},
@@ -41,7 +45,7 @@ public class OrderDetails {
     @ToString.Exclude
     private Set<Product> products;
 
-    @ManyToOne
+    @ManyToOne(cascade = CascadeType.ALL)
     @JoinColumn(name = "customer_id")
     private Customer customer;
 }
