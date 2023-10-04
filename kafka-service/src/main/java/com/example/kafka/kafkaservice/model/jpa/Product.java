@@ -31,8 +31,4 @@ public class Product {
     @Column(name = "category")
     private String category;
 
-    @ManyToMany(mappedBy = "products")
-    @ToString.Exclude
-    private Set<OrderDetails> orderDetails;
-
 }

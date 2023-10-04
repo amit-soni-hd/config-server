@@ -45,7 +45,6 @@ public class Customer {
     @Pattern(regexp = MOBILE_REGEX, message = "Please provide valid mobile")
     private String mobile;
 
-    @ManyToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = "address_id")
-    private Address address;
+    @Column(name = "address_id")
+    private Integer addressId;
 }
